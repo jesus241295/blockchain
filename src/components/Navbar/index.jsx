@@ -6,9 +6,7 @@ export default function Navbar() {
       <h3>
         <CiHome size="2rem" color="blue" />
       </h3>
-      <h3>
-        <CiShop size="2rem" color="blue" />
-      </h3>
+      <h3></h3>
     </div>
   );
 }
