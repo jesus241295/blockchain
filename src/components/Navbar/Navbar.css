@@ -1,0 +1,24 @@
+
+.content-navbar{
+    /* border: 1px solid red; */
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+}
+li{
+    list-style: none;
+    margin-top: 50px;
+}
+.link{
+    font-size: 25px;
+}
+
+.inActive{
+    color: #7D8092;
+}
+.active{
+    color: #375EF8;
+}
