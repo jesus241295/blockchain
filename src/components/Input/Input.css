@@ -1,0 +1,11 @@
+.content-input{
+    display: flex;
+    justify-content: end;
+    align-items: center;    
+}
+.input{
+    width: 290px;
+    height: 38px;
+    border: 1px solid #375EF8;
+    border-radius: 5px;
+}

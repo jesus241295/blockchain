@@ -1,6 +1,12 @@
 import "./Navbar.css";
 import { Link, useNavigate } from "react-router-dom";
-import { CiShop, CiHome, CiSquareMore, CiUser } from "react-icons/ci";
+import {
+  CiShop,
+  CiHome,
+  CiSquareMore,
+  CiUser,
+  CiCircleMore,
+} from "react-icons/ci";
 import { useState } from "react";
 
 export default function Navbar() {
@@ -49,6 +55,16 @@ export default function Navbar() {
               >
                 <a onClick={() => navigate("/Profile")} className="link">
                   <CiUser />
+                </a>
+              </li>
+            </Link>
+            <Link to="/Setting">
+              <li
+                onClick={() => setItemActive(5)}
+                className={`${isActive(5) ? "active" : "inActive"}`}
+              >
+                <a onClick={() => navigate("/Setting")} className="link">
+                  <CiCircleMore />
                 </a>
               </li>
             </Link>

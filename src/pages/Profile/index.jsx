@@ -1,3 +1,3 @@
 export default function Profile() {
-  return <div className="title">Estamos Navegando en Perfil Ejemplo</div>;
+  return <div className="title">We are browsing our Profile</div>;
 }

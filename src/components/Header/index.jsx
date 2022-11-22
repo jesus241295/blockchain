@@ -1,6 +1,7 @@
 import "./Header.css";
 import logo from "../../assets/logo.png";
 import avatar from "../../assets/avatar.jpg";
+import Button from "../Button";
 export default function Header() {
   return (
     <div className="container">
@@ -8,7 +9,7 @@ export default function Header() {
         <img src={logo} alt="image-logo" className="logo" />
       </div>
       <div className="content-button">
-        <button className="buttom">New Product</button>
+        <Button text="New Product" />
         <div className="content-avatar">
           <a href="" className="text">
             My Wallet

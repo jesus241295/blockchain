@@ -1,7 +1,22 @@
+.content-home{
+    width: 100%;
+}
+.title-text{
+display: flex;
+justify-content: space-between;
+}
 .title{
     font-size: 3rem;
     color: #375EF8 ;
 }
 .title-welcome{
     color: #375EF8 ;
+    width: 40%;
+    font-size: 40px;
+}
+.content-input-text{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
