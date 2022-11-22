@@ -6,18 +6,22 @@ import Home from "./pages/Home";
 import Personalize from "./pages/Personalize";
 import Store from "./pages/Store";
 import Profile from "./pages/Profile";
+import Setting from "./pages/Setting-";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Navbar />
-      <Routes>
-        <Route index="/" element={<Home />} />
-        <Route path="Store" element={<Store />} />
-        <Route path="Personalize" element={<Personalize />} />
-        <Route path="Profile" element={<Profile />} />
-      </Routes>
+      <div className="webApplication">
+        <Navbar />
+        <Routes>
+          <Route index="/" element={<Home />} />
+          <Route path="Store" element={<Store />} />
+          <Route path="Personalize" element={<Personalize />} />
+          <Route path="Profile" element={<Profile />} />
+          <Route path="Setting" element={<Setting />} />
+        </Routes>
+      </div>
     </div>
   );
 }

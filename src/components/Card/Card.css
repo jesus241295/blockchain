@@ -1,0 +1,24 @@
+.content-card{
+    height: 130px;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    margin-bottom: 15px;
+    position: relative;
+    left: 60%;
+    background-color: white;
+}
+.content-money{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.content-icons{
+    color: #375EF8;
+    padding-left: 25px;
+}
+.content-icons{
+    font-size: 27px;
+}
+.text{
+    font-size: 10px;
+}
